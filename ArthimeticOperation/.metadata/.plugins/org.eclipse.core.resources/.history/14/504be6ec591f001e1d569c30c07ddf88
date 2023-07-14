@@ -1,0 +1,19 @@
+package Secret_msg;
+
+import java.util.Scanner;
+
+public class Secret_App {
+public static void main(String[] args) {
+ Scanner scan=new Scanner(System.in);
+ while(true)
+ {
+ System.err.println("enter the msg");
+ char ch =scan.next().charAt(0);
+ if (ch==0) {
+	 break;
+ }
+ Secret_Msg_Decoder smd= new Secret_Msg_Decoder();
+ System.out.println("the secret code is "+""+smd.decodeCharacter(ch));
+}
+}
+}

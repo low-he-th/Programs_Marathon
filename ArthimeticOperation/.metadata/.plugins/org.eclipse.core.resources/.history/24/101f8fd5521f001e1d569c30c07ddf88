@@ -1,0 +1,12 @@
+package temperature_converter;
+
+import java.util.Scanner;
+
+public class TemperatureConvereterApp {
+public static void main(String[] args) {
+ Scanner scan=new  Scanner(System.in);
+ double fahrenheit = scan.nextDouble();
+ TemperatureConverter t= new TemperatureConverter();
+ System.out.println(t.convertFahrenheitToCelsius(fahrenheit));
+}
+}

@@ -1,0 +1,16 @@
+package time_converter;
+
+import java.util.Scanner;
+
+public class TimeConverter {
+public static void main(String[] args) {
+Scanner  scan =new	Scanner(System.in);
+int min=scan.nextInt();
+    mintohour(min);
+}
+public static void mintohour(int min)
+{
+ System.out.println( min/60.0);
+	
+}
+}

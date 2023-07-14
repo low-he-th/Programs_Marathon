@@ -1,0 +1,13 @@
+package height_convereter;
+
+public class HeightConvertion {
+	public class HeightConverter {
+
+		public double convertInchesToFeet(double inches)
+		{
+			return
+		}
+
+		}
+
+}

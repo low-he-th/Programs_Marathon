@@ -1,0 +1,13 @@
+package Planet_Explorer;
+
+import java.util.Scanner;
+
+public class PlanetExplorerApp {
+public static void main(String[] args) {
+	Scanner  scan =new Scanner(System.in);
+	double radius=scan.nextDouble();
+PlanetExplorerApp px=new PlanetExplorerApp();
+	System.out.println(px.calculateSurfaceArea(radius));
+
+}
+}

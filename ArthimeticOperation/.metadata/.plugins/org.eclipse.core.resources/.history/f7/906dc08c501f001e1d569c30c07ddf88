@@ -1,0 +1,15 @@
+package journey_calculator;
+
+import java.util.Scanner;
+
+public class JourneyCalculatorApp {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("eneter the speed and time");
+		int speed =scan.nextInt();
+		int time=scan.nextInt();
+		JourneyCalculator jc=new JourneyCalculator();
+		System.out.println(jc.calculateDistance(speed,time));
+	}
+
+}

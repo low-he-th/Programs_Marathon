@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Double_trouble.DoubleTheTrouble"/>
+    <fullyQualifiedTypeName name="temperature_converter.TemperatureConverter"/>
+    <fullyQualifiedTypeName name="Secret_msg.Secret_Msg_Decoder"/>
+    <fullyQualifiedTypeName name="Secret_msg.Secret_App"/>
+    <fullyQualifiedTypeName name="Planet_Explorer.PlanetExplorerApp"/>
+    <fullyQualifiedTypeName name="height_convereter.HeightConvertion"/>
+    <fullyQualifiedTypeName name="Finance_calculator.FinanceCalculatorApp"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

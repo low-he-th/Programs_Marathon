@@ -1,0 +1,18 @@
+package Finance_calculator;
+
+import java.util.Scanner;
+
+public class FinanceCalculatorApp {
+public static void main(String[] args) {
+	  Scanner scan=new Scanner(System.in);
+	  System.out.println("enter principL amount");
+	  double principal=scan.nextDouble();
+	 System.out.println("enter the rate");
+	  double rate=scan.nextDouble();
+	  System.out.println("entre the time ");
+	  double time=scan.nextDouble();
+	  FinanceCalculator fc=new FinanceCalculator();
+	 System.out.println(fc.calculateSimpleInterest(principal, rate, time));
+}
+}
+s
