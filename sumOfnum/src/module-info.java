@@ -5,5 +5,5 @@
  * @author Admin
  *
  */
-module Typecasting {
+module sumOfnum {
 }
