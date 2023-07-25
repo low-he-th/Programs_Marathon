@@ -1,3 +1,3 @@
 # Programs_Marathon
-Here are the some of programs done by me.
+Here are the some of programs done by myself
 
