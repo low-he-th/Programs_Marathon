@@ -1,0 +1,1 @@
+package pattern.level6;
